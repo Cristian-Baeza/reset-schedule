@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Home() {
   const schedule = [
@@ -27,13 +26,15 @@ export default function Home() {
     {
       day: "Thursday",
       assignments: [
-        { location: "Reset", person: "Ric" },
+        { location: "Reset", person: "Hazel" },
+        { location: "School", person: "Ric" },
       ],
     },{
       day: "Friday",
       assignments: [
         { location: "Morning Reset", person: "Cristian" },
         { location: "Reset", person: "Hazel" },
+        { location: "School", person: "Ric" },
       ],
     },{
       day: "Saturday",
