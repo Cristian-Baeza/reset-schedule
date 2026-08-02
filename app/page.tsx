@@ -4,15 +4,14 @@ export default function Home() {
     {
       day: "Monday",
       assignments: [
-        { location: "Reset", person: "Ric" },
-        { location: "School", person: "Hazel" },
+        { location: "Morning Reset", person: "Cristian" },
+        { location: "Reset", person: "Hazel" },
       ],
     },
     {
       day: "Tuesday",
       assignments: [
         { location: "Reset", person: "Hazel" },
-        { location: "School", person: "Cristian" },
       ],
     },
     {
@@ -26,15 +25,13 @@ export default function Home() {
     {
       day: "Thursday",
       assignments: [
-        { location: "Reset 4-7", person: "Hazel" },
-        { location: "Reset 7-10", person: "Ric" },
+        { location: "Reset", person: "Ric" },
       ],
     },{
       day: "Friday",
       assignments: [
-        { location: "Morning Reset", person: "Cristian" },
-        { location: "Reset 4-7", person: "Hazel" },
-        { location: "Reset 7-10", person: "Ric" },
+        { location: "Morning Reset", person: "Hazel" },
+        { location: "Reset", person: "Cristian" },
       ],
     },{
       day: "Saturday",
@@ -62,7 +59,7 @@ export default function Home() {
           className="mb-8 text-3xl font-bold"
           style={{ color: "#CA4A1C" }}
         >
-          Schedule Week July 27
+          Schedule Week AUG 3
         </h1>
 
         <div className="space-y-8">
