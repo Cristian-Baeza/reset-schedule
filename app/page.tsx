@@ -1,5 +1,7 @@
 
 export default function Home() {
+  const weekOfMonth = "AUG 3"
+
   const schedule = [
     {
       day: "Monday",
@@ -50,16 +52,10 @@ export default function Home() {
   ];
 
   return (
-    <main
-      className="min-h-screen p-8"
-      style={{ backgroundColor: "#FDF8F5" }}
-    >
+    <main className="min-h-screen p-8" style={{ backgroundColor: "#FDF8F5" }}>
       <div className="mx-auto max-w-xl rounded-lg bg-white p-6 shadow-lg">
-        <h1
-          className="mb-8 text-3xl font-bold"
-          style={{ color: "#CA4A1C" }}
-        >
-          Schedule Week AUG 3
+        <h1 className="mb-8 text-3xl font-bold" style={{ color: "#CA4A1C" }} >
+          Schedule Week { weekOfMonth }
         </h1>
 
         <div className="space-y-8">
