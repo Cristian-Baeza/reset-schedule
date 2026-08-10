@@ -1,6 +1,12 @@
+const personColors = {
+  Cristian: "#800080", // blue
+  Hazel: "#2563EB",    // red
+  Ric: "#16A34A",      // green
+};
+
 
 export default function Home() {
-  const weekOfMonth = "AUG 3"
+  const weekOfMonth = "AUG 10"
 
   const schedule = [
     {
@@ -13,27 +19,27 @@ export default function Home() {
     {
       day: "Tuesday",
       assignments: [
-        { location: "Reset", person: "Hazel" },
+        { location: "Reset", person: "Ric" },
       ],
     },
     {
       day: "Wednesday",
       assignments: [
         { location: "Morning Reset", person: "Cristian" },
-        { location: "Reset", person: "Ric" },
-        { location: "School", person: "Hazel" },
+        { location: "Reset", person: "Hazel" },
+        { location: "School", person: "Ric" },
       ],
     },
     {
       day: "Thursday",
       assignments: [
-        { location: "Reset", person: "Ric" },
+        { location: "Reset", person: "Ric" }, // Not Hazel
       ],
     },{
       day: "Friday",
       assignments: [
-        { location: "Morning Reset", person: "Hazel" },
-        { location: "Reset", person: "Cristian" },
+        { location: "Morning Reset", person: "Cristian" },
+        { location: "Reset", person: "Hazel" },
       ],
     },{
       day: "Saturday",
@@ -84,7 +90,15 @@ export default function Home() {
                       >
                         {assignment.location}:
                       </span>{" "}
-                      <span style={{ color: "#131D2D" }}>
+                      <span
+                        className="font-medium"
+                        style={{
+                          color:
+                            personColors[
+                              assignment.person as keyof typeof personColors
+                            ],
+                        }}
+                      >
                         {assignment.person}
                       </span>
                     </li>
