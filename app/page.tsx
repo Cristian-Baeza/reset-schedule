@@ -19,15 +19,15 @@ export default function Home() {
     {
       day: "Tuesday",
       assignments: [
-        { location: "Reset", person: "Cristian" },
+        { location: "Reset", person: "Hazel" },
       ],
     },
     {
       day: "Wednesday",
       assignments: [
         { location: "Morning Reset", person: "Hazel" },
-        { location: "Reset", person: "Hazel" },
-        { location: "School", person: "Ric" },
+        { location: "Reset", person: "Ric" },
+        { location: "School", person: "Hazel" },
       ],
     },
     {
