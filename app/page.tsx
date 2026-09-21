@@ -26,8 +26,8 @@ export default function Home() {
       day: "Wednesday",
       assignments: [
         { location: "Morning Reset", person: "Hazel" },
-        { location: "Reset", person: "Cristian" },
-        { location: "School", person: "Ric" },
+        { location: "Reset", person: "Ric" },
+        { location: "School", person: "Cristian" },
       ],
     },
     {
