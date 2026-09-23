@@ -27,7 +27,7 @@ export default function Home() {
       assignments: [
         { location: "Morning Reset", person: "Hazel" },
         { location: "Reset", person: "Ric" },
-        { location: "School", person: "Cristian" },
+        { location: "School", person: "Cancelled" },
       ],
     },
     {
@@ -96,7 +96,7 @@ export default function Home() {
                           color:
                             personColors[
                               assignment.person as keyof typeof personColors
-                            ],
+                            ] || "#000000",
                         }}
                       >
                         {assignment.person}
