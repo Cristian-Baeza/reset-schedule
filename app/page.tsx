@@ -45,7 +45,8 @@ export default function Home() {
       day: "Saturday",
       assignments: [
         { location: "Park", person: "Ric" },
-        { location: "Reset", person: "Hazel" },
+        { location: "Reset", person: "Chris Alaniz" },
+        { location: "School", person: "Hazel" },
       ],
     },{
       day: "Sunday",
