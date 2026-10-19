@@ -12,13 +12,13 @@ export default function Home() {
     {
       day: "Monday",
       assignments: [
-        { location: "Reset", person: "Ric" },
+        { location: "Reset", person: "Cristian" },
       ],
     },
     {
       day: "Tuesday",
       assignments: [
-        { location: "Reset", person: "TBD" },
+        { location: "Reset", person: "Ric" },
       ],
     },
     {
