@@ -25,20 +25,20 @@ export default function Home() {
       day: "Wednesday",
       assignments: [
         { location: "Morning Reset", person: "Hazel" },
-        { location: "Reset", person: "Cristian" },
+        { location: "School", person: "Cristian" },
       ],
     },
     {
       day: "Thursday",
       assignments: [
-        { location: "Morning Reset", person: "Cristian" },
-        { location: "Reset", person: "Hazel" },
+        { location: "Morning Reset", person: "Cancelled" },
+        { location: "School", person: "Hazel" },
       ],
     },{
       day: "Friday",
       assignments: [
-        { location: "Morning Reset", person: "Hazel" },
-        { location: "Reset", person: "TBD" },
+        { location: "Morning Reset", person: "Cancelled" },
+        { location: "School", person: "TBD" },
       ],
     },{
       day: "Saturday",
