@@ -38,19 +38,19 @@ export default function Home() {
       day: "Friday",
       assignments: [
         { location: "Morning Reset", person: "Cancelled" },
-        { location: "School", person: "TBD" },
+        { location: "School", person: "Hazel" },
       ],
     },{
       day: "Saturday",
       assignments: [
         { location: "Park", person: "Ric" },
-        { location: "Reset", person: "Hazel" },
+        { location: "Reset", person: "Cancelled" },
       ],
     },{
       day: "Sunday",
       assignments: [
         { location: "Park", person: "Ric" },
-        { location: "Reset", person: "Hazel" },
+        { location: "Reset", person: "Cancelled" },
         { location: "School", person: "TBD" },
       ],
     },
