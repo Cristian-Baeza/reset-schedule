@@ -6,52 +6,48 @@ const personColors = {
 
 
 export default function Home() {
-  const weekOfMonth = "OCT 26"
+  const weekOfMonth = "NOV 9"
 
   const schedule = [
     {
       day: "Monday",
       assignments: [
-        { location: "Reset", person: "Ric" },
+        { location: "School", person: "Ric" },
       ],
     },
     {
       day: "Tuesday",
       assignments: [
-        { location: "Reset", person: "Ric" },
+        { location: "School", person: "Hazel" },
       ],
     },
     {
       day: "Wednesday",
       assignments: [
-        { location: "Morning Reset", person: "Hazel" },
         { location: "School", person: "Cristian" },
       ],
     },
     {
       day: "Thursday",
       assignments: [
-        { location: "Morning Reset", person: "Cancelled" },
         { location: "School", person: "Hazel" },
       ],
     },{
       day: "Friday",
       assignments: [
-        { location: "Morning Reset", person: "Cancelled" },
-        { location: "School", person: "Hazel" },
+        { location: "School", person: "Ric" },
       ],
     },{
       day: "Saturday",
       assignments: [
         { location: "Park", person: "Ric" },
-        { location: "Reset", person: "Cancelled" },
+        { location: "School", person: "Hazel" },
       ],
     },{
       day: "Sunday",
       assignments: [
         { location: "Park", person: "Ric" },
-        { location: "Reset", person: "Cancelled" },
-        { location: "School", person: "TBD" },
+        { location: "School", person: "Cristian" },
       ],
     },
   ];
