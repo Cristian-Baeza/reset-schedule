@@ -6,7 +6,7 @@ const personColors = {
 
 
 export default function Home() {
-  const weekOfMonth = "NOV 9"
+  const weekOfMonth = "NOV 16"
 
   const schedule = [
     {
@@ -24,7 +24,7 @@ export default function Home() {
     {
       day: "Wednesday",
       assignments: [
-        { location: "School", person: "Cristian" },
+        { location: "School", person: "Ric" },
       ],
     },
     {
@@ -35,7 +35,7 @@ export default function Home() {
     },{
       day: "Friday",
       assignments: [
-        { location: "School", person: "Ric" },
+        { location: "School", person: "Cristian" },
       ],
     },{
       day: "Saturday",
