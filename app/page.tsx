@@ -41,13 +41,13 @@ export default function Home() {
       day: "Saturday",
       assignments: [
         { location: "Park", person: "Ric" },
-        { location: "School", person: "Hazel" },
+        { location: "School", person: "Cristian" },
       ],
     },{
       day: "Sunday",
       assignments: [
         { location: "Park", person: "Ric" },
-        { location: "School", person: "Cristian" },
+        { location: "School", person: "Hazel" },
       ],
     },
   ];
